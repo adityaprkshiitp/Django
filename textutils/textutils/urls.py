@@ -16,13 +16,15 @@ Including another URLconf
 from unicodedata import name
 from django.contrib import admin
 from django.urls import path
+from django.conf import settings
+from django.conf.urls.static import static
 from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='homepage'),
-    path('division', views.division, name='divide'),
-    path('subtraction', views.subtraction, name='subtract'),
-    path('addition', views.addition, name='add'),
-    path('multiplication', views.multiplication, name='multiply'),
-]
+    path('division', views.division, name='division'),
+    path('subtraction', views.subtraction, name='subtraction'),
+    path('addition', views.addition, name='additionn'),
+    path('multiplication', views.multiplication, name='multiplication'),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

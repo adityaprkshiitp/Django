@@ -1,13 +1,36 @@
-<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF = 8"
-        <title></title>
+        <meta charset="utf-8">
+        <meta content="IE=edge">
+        <title>Homepage</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="/static/css/style.css">
     </head>
     <body>
-        '''<h1><center>HOME</center></h1><br><a href="http://127.0.0.1:8000/division"> <b>Divide here</b></a>
-    <br><a href="http://127.0.0.1:8000/subtraction"> <b>Subtract here</b></a>
-    <br><a href="http://127.0.0.1:8000/addition"> <b>Add here</b></a>
-    <br><a href="http://127.0.0.1:8000/multiplication"> <b>Multiply here</b></a>'''
+        <section>
+            <nav>
+                <div class="logo">
+                <img src="../Media/pexels-ruvim-3767673.jpg" alt="logo">
+                </div>
+                 <ul>
+                     <li><a href="http://127.0.0.1:8000/division" target="blank">Divide</a></li>
+                     <li><a href="http://127.0.0.1:8000/multiplication" target="blank">Multiply</a></li>
+                     <li><a href="http://127.0.0.1:8000/addition" target="blank">Add</a></li>
+                     <li><a href="http://127.0.0.1:8000/subtraction" target="blank">Subtract</a></li>
+                 </ul>
+         </nav>
+         <div id="abody">
+             <div class="leftblock">
+                <img src="../Media/0073.png" alt="Error">
+             </div>
+             <div class="rightblock">
+                 <p>
+                     The Building You Will Never Need To Leave
+                 </p>
+             </div>
+         </div>
+        </section>
     </body>
 </html>
