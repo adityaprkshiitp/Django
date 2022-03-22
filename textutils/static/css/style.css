@@ -31,6 +31,19 @@ nav {
 
 nav .logo {
   width: 15%;
+  margin-left: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .logo img {
+  width: 8rem;
+  height: 10vh;
+}
+
+nav .logo .para {
+  margin-left: 20px;
 }
 
 nav ul {
@@ -39,6 +52,8 @@ nav ul {
   margin: 0px;
   padding: 0rem;
   margin-left: 24rem;
+  margin-right: 2rem;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,6 +77,11 @@ nav ul li {
   width: 50%;
   text-align: center;
   background-color: blue;
+}
+
+#abody .leftblock img {
+  width: 100%;
+  height: 90vh;
 }
 
 #abody .rightblock {
