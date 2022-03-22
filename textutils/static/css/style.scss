@@ -11,7 +11,6 @@ section{
     height: 100vh;
     width: 100%;
 }
-$text-color:#fff;
 
 
 nav{
@@ -35,6 +34,7 @@ nav{
             align-items: center;
             margin: 5px;
         }
+    }
     ul{
         width: 60%;
         list-style: none;
@@ -53,28 +53,35 @@ nav{
 
     }
 }
-#abody{
-    display: flex;
+
+
+.abody{
     height: 90vh;
-    border-radius: 25px;
-    border: black;
+    margin: 20px;
+    display: flex;
     .leftblock{
         width: 50%;
         text-align: center;
-        border: black;
-        border-radius: 25px;
+        margin-bottom: 3rem;
         img{
-            border-radius: 5%;
-            width: 95%;
-            height: 90vh;
+            width: 100%;
+            height: 83vh;
+            margin-bottom: 3rem;
+            border-radius: 25px;
         }
     }
     .rightblock{
         width: 50%;
         text-align: center;
         background-color: white;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+        border-radius: 25px;
+        border: #000;
         p{
             margin: 10rem;
+            background-color: white;
             font-size: 4rem;
             font-family: 'Roboto', sans-serif;
             font-family: 'Waiting for the Sunrise', cursive;
