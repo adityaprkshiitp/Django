@@ -30,9 +30,13 @@ nav{
             width: 8rem;
             height: 10vh;  
         }
-        p{
-            align-items: center;
-            margin: 5px;
+        p{ 
+            width: 50%; 
+            margin: 3px;
+            padding-top: 15px;
+            font-size:x-large;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Waiting for the Sunrise', cursive;
         }
     }
     ul{
@@ -40,15 +44,37 @@ nav{
         list-style: none;
         margin: 0px;
         padding: 0rem;
-        margin-left: 24rem;
+        margin-left: 18rem;
         margin-right: 2rem;
         text-align: center;
+        font-size: x-large;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Waiting for the Sunrise', cursive;
+        align-items: center;
         display: flex;
         li{
-            margin-left: 7rem;
-            margin-top: 8px;
-            font-size: 2rem;
-            border: violet;
+            width: 25%;
+            border: 2px solid #000;
+            margin-top: 16px;
+            border-radius: 25px;
+        }
+        li{
+            width: 25%;
+            border: 2px solid #000;
+            margin-top: 16px;
+            border-radius: 25px;
+        }
+        li{
+            width: 25%;
+            border: 2px solid #000;
+            margin-top: 16px;
+            border-radius: 25px;
+        }
+        li{
+            width: 25%;
+            border: 2px solid #000;
+            margin-top: 16px;
+            border-radius: 25px;
         }
 
     }
@@ -73,7 +99,7 @@ nav{
     .rightblock{
         width: 50%;
         text-align: center;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         margin-bottom: 3rem;
         margin-top: 1rem;
         margin-left: 3rem;
@@ -81,7 +107,7 @@ nav{
         border: #000;
         p{
             margin: 10rem;
-            background-color: white;
+            background-color: rgb(255, 255, 255);
             font-size: 4rem;
             font-family: 'Roboto', sans-serif;
             font-family: 'Waiting for the Sunrise', cursive;

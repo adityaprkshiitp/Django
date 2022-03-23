@@ -43,10 +43,12 @@ nav .logo img {
 }
 
 nav .logo p {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 5px;
+  width: 50%;
+  margin: 3px;
+  padding-top: 15px;
+  font-size: x-large;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Waiting for the Sunrise', cursive;
 }
 
 nav ul {
@@ -54,19 +56,46 @@ nav ul {
   list-style: none;
   margin: 0px;
   padding: 0rem;
-  margin-left: 24rem;
+  margin-left: 18rem;
   margin-right: 2rem;
   text-align: center;
+  font-size: x-large;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Waiting for the Sunrise', cursive;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 nav ul li {
-  margin-left: 7rem;
-  margin-top: 8px;
-  font-size: 2rem;
-  border: violet;
+  width: 25%;
+  border: 2px solid #000;
+  margin-top: 16px;
+  border-radius: 25px;
+}
+
+nav ul li {
+  width: 25%;
+  border: 2px solid #000;
+  margin-top: 16px;
+  border-radius: 25px;
+}
+
+nav ul li {
+  width: 25%;
+  border: 2px solid #000;
+  margin-top: 16px;
+  border-radius: 25px;
+}
+
+nav ul li {
+  width: 25%;
+  border: 2px solid #000;
+  margin-top: 16px;
+  border-radius: 25px;
 }
 
 .abody {
