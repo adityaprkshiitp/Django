@@ -6,6 +6,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+@font-face {
+  font-family: Seasons;
+  src: url(../../Media/Fonts/Fontspring-DEMO-theseasons-reg.otf);
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -43,9 +48,8 @@ section {
   margin: 3px;
   padding-top: 15px;
   color: white;
-  font-size: x-large;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 34.3px;
+  font-family: Fontspring-DEMO-theseasons-reg;
 }
 
 .one nav ul {
@@ -57,7 +61,7 @@ section {
   margin-left: 18rem;
   margin-right: 2rem;
   text-align: center;
-  font-size: x-large;
+  font-size: 14.9px;
   font-family: 'Roboto', sans-serif;
   font-family: 'Waiting for the Sunrise', cursive;
   -webkit-box-align: center;
@@ -73,8 +77,7 @@ section {
   margin-top: 7px;
   margin-right: 4px;
   margin-bottom: 7px;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: Fontspring-DEMO-theseasons-reg;
 }
 
 .one nav ul li a {
@@ -88,8 +91,7 @@ section {
   margin-top: 7px;
   margin-right: 4px;
   margin-bottom: 7px;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: Fontspring-DEMO-theseasons-reg;
 }
 
 .one nav ul li a {
@@ -103,8 +105,7 @@ section {
   margin-top: 7px;
   margin-right: 4px;
   margin-bottom: 7px;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: Fontspring-DEMO-theseasons-reg;
 }
 
 .one nav ul li a {
@@ -118,8 +119,7 @@ section {
   margin-top: 7px;
   margin-right: 4px;
   margin-bottom: 7px;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: Fontspring-DEMO-theseasons-reg;
 }
 
 .one nav ul li a {
@@ -162,8 +162,7 @@ section {
   margin: 10rem;
   background-color: white;
   font-size: 45.2px;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: Fontspring-DEMO-theseasons-reg;
   text-align: left;
 }
 
@@ -183,8 +182,7 @@ section {
   display: inline-block;
   margin-left: 250px;
   margin-top: 80px;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: Fontspring-DEMO-theseasons-reg;
   font-size: 19.2px;
 }
 
@@ -192,8 +190,7 @@ section {
   margin-left: 250px;
   margin-top: 40px;
   font-size: xx-large;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: Fontspring-DEMO-theseasons-reg;
   font-size: 45.5px;
 }
 
@@ -228,8 +225,7 @@ section {
   width: 80%;
   height: 80%;
   font-size: 16.4px;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: Fontspring-DEMO-theseasons-reg;
   text-align: left;
   color: white;
 }
@@ -300,21 +296,19 @@ section {
 .four .build p {
   font-size: 19.2px;
   margin-top: 170px;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: Fontspring-DEMO-theseasons-reg;
 }
 
 .four .build .explore {
   margin-top: 80px;
   font-size: 45.5px;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: Fontspring-DEMO-theseasons-reg;
 }
 
 .four .beggar2 {
   position: relative;
   left: 1070px;
-  bottom: 380px;
+  bottom: 350px;
   height: 100vh;
   width: 20%;
   background-color: #d19f3b;
@@ -349,8 +343,7 @@ section {
   background-color: white;
   font-style: bold;
   font-size: large;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: Fontspring-DEMO-theseasons-reg;
 }
 
 .four .biggie .big2 {
@@ -368,8 +361,7 @@ section {
   background-color: white;
   font-style: bold;
   font-size: large;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: Fontspring-DEMO-theseasons-reg;
 }
 
 .four .biggie .big3 {
@@ -388,7 +380,236 @@ section {
   background-color: transparent;
   font-style: bold;
   font-size: large;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: Fontspring-DEMO-theseasons-reg;
+}
+
+.five {
+  position: relative;
+  bottom: 110px;
+}
+
+.five .smallie {
+  height: 45vh;
+  font-family: Fontspring-DEMO-theseasons-reg;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.five .smallie .hi1 {
+  width: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.five .smallie .hi2 {
+  margin-top: 100px;
+  width: 20%;
+}
+
+.five .smallie .hi2 p {
+  font-size: 47.2px;
+  color: #ba8425;
+}
+
+.five .smallie .hi2 .hi22 {
+  margin-top: 50px;
+  font-size: 17.1px;
+  color: black;
+}
+
+.five .smallie .hi3 {
+  margin-top: 100px;
+  width: 20%;
+}
+
+.five .smallie .hi3 p {
+  font-size: 47.2px;
+  color: #ba8425;
+}
+
+.five .smallie .hi3 .hi33 {
+  margin-top: 50px;
+  font-size: 17.1px;
+  color: black;
+}
+
+.five .smallie .hi4 {
+  margin-top: 100px;
+  width: 20%;
+}
+
+.five .smallie .hi4 p {
+  font-size: 47.2px;
+  color: #ba8425;
+}
+
+.five .smallie .hi4 .hi44 {
+  margin-top: 50px;
+  font-size: 17.1px;
+  color: black;
+}
+
+.five .smallie .hi5 {
+  margin-top: 100px;
+  width: 20%;
+}
+
+.five .smallie .hi5 p {
+  font-size: 47.2px;
+  color: #ba8425;
+}
+
+.five .smallie .hi5 .hi55 {
+  margin-top: 50px;
+  font-size: 17.1px;
+  color: black;
+}
+
+.five .smallie .hi6 {
+  width: 10%;
+}
+
+.five img {
+  height: 55vh;
+  width: 100%;
+}
+
+.six {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Fontspring-DEMO-theseasons-reg;
+}
+
+.six .leftblock {
+  height: 100vh;
+  width: 40%;
+  margin-right: 20px;
+}
+
+.six .leftblock p {
+  margin-top: 250px;
+  margin-left: 250px;
+  font-size: 19.2px;
+}
+
+.six .leftblock .para {
+  margin-top: 50px;
+  font-size: 45.5px;
+}
+
+.six .rightblock {
+  height: 100vh;
+  width: 60%;
+}
+
+.six .rightblock .topblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 250px;
+  width: 75%;
+}
+
+.six .rightblock .topblock .first {
+  width: 33.3%;
+}
+
+.six .rightblock .topblock .first img {
+  width: 70%;
+  height: 10vh;
+}
+
+.six .rightblock .topblock .first p {
+  font-size: 16.4px;
+  margin-top: 10px;
+  font-style: bold;
+}
+
+.six .rightblock .topblock .second {
+  width: 33.3%;
+}
+
+.six .rightblock .topblock .second img {
+  width: 70%;
+  height: 10vh;
+}
+
+.six .rightblock .topblock .second p {
+  font-size: 16.4px;
+  margin-top: 10px;
+  font-style: bold;
+}
+
+.six .rightblock .topblock .third {
+  width: 33.3%;
+}
+
+.six .rightblock .topblock .third img {
+  width: 70%;
+  height: 10vh;
+}
+
+.six .rightblock .topblock .third p {
+  font-size: 16.4px;
+  margin-top: 10px;
+  font-style: bold;
+}
+
+.six .rightblock .bottomblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  width: 75%;
+}
+
+.six .rightblock .bottomblock .fourth {
+  width: 33.3%;
+}
+
+.six .rightblock .bottomblock .fourth img {
+  width: 70%;
+  height: 10vh;
+}
+
+.six .rightblock .bottomblock .fourth p {
+  font-size: 16.4px;
+  margin-top: 10px;
+  font-style: bold;
+}
+
+.six .rightblock .bottomblock .fifth {
+  width: 33.3%;
+}
+
+.six .rightblock .bottomblock .fifth img {
+  width: 70%;
+  height: 10vh;
+}
+
+.six .rightblock .bottomblock .fifth p {
+  font-size: 16.4px;
+  margin-top: 10px;
+  font-style: bold;
+}
+
+.six .rightblock .bottomblock .sixth {
+  width: 33.3%;
+}
+
+.six .rightblock .bottomblock .sixth img {
+  width: 70%;
+  height: 10vh;
+}
+
+.six .rightblock .bottomblock .sixth p {
+  font-size: 16.4px;
+  margin-top: 10px;
+  font-style: bold;
 }
 /*# sourceMappingURL=style.css.map */
