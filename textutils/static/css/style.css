@@ -16,7 +16,7 @@ section {
   width: 100%;
 }
 
-section .one nav {
+.one nav {
   width: 100%;
   height: 10vh;
   background-color: #d19f3b;
@@ -25,7 +25,7 @@ section .one nav {
   display: flex;
 }
 
-section .one nav .logo {
+.one nav .logo {
   width: 40%;
   margin-left: 2rem;
   display: -webkit-box;
@@ -33,12 +33,12 @@ section .one nav .logo {
   display: flex;
 }
 
-section .one nav .logo img {
+.one nav .logo img {
   width: 6rem;
   height: 10vh;
 }
 
-section .one nav .logo p {
+.one nav .logo p {
   width: 50%;
   margin: 3px;
   padding-top: 15px;
@@ -48,7 +48,7 @@ section .one nav .logo p {
   font-family: 'Waiting for the Sunrise', cursive;
 }
 
-section .one nav ul {
+.one nav ul {
   width: 60%;
   height: 100%;
   list-style: none;
@@ -68,7 +68,7 @@ section .one nav ul {
   display: flex;
 }
 
-section .one nav ul li {
+.one nav ul li {
   width: 25%;
   margin-top: 7px;
   margin-right: 4px;
@@ -77,13 +77,13 @@ section .one nav ul li {
   font-family: 'Waiting for the Sunrise', cursive;
 }
 
-section .one nav ul li a {
+.one nav ul li a {
   text-decoration: none;
   cursor: pointer;
   color: white;
 }
 
-section .one nav ul li {
+.one nav ul li {
   width: 25%;
   margin-top: 7px;
   margin-right: 4px;
@@ -92,13 +92,13 @@ section .one nav ul li {
   font-family: 'Waiting for the Sunrise', cursive;
 }
 
-section .one nav ul li a {
+.one nav ul li a {
   text-decoration: none;
   cursor: pointer;
   color: white;
 }
 
-section .one nav ul li {
+.one nav ul li {
   width: 25%;
   margin-top: 7px;
   margin-right: 4px;
@@ -107,13 +107,13 @@ section .one nav ul li {
   font-family: 'Waiting for the Sunrise', cursive;
 }
 
-section .one nav ul li a {
+.one nav ul li a {
   text-decoration: none;
   cursor: pointer;
   color: white;
 }
 
-section .one nav ul li {
+.one nav ul li {
   width: 25%;
   margin-top: 7px;
   margin-right: 4px;
@@ -122,13 +122,13 @@ section .one nav ul li {
   font-family: 'Waiting for the Sunrise', cursive;
 }
 
-section .one nav ul li a {
+.one nav ul li a {
   text-decoration: none;
   cursor: pointer;
   color: white;
 }
 
-section .one .abody {
+.one .abody {
   height: 90vh;
   margin: 20px;
   display: -webkit-box;
@@ -136,19 +136,19 @@ section .one .abody {
   display: flex;
 }
 
-section .one .abody .leftblock {
+.one .abody .leftblock {
   width: 50%;
   text-align: center;
   margin-bottom: 3rem;
 }
 
-section .one .abody .leftblock img {
+.one .abody .leftblock img {
   width: 100%;
   height: 83vh;
   margin-bottom: 3rem;
 }
 
-section .one .abody .rightblock {
+.one .abody .rightblock {
   width: 50%;
   text-align: center;
   background-color: white;
@@ -158,7 +158,7 @@ section .one .abody .rightblock {
   border: #000;
 }
 
-section .one .abody .rightblock p {
+.one .abody .rightblock p {
   margin: 10rem;
   background-color: white;
   font-size: 45.2px;
@@ -167,11 +167,11 @@ section .one .abody .rightblock p {
   text-align: left;
 }
 
-section .two {
+.two {
   background-color: white;
 }
 
-section .two .block1 {
+.two .block1 {
   position: relative;
   left: 10px;
   width: 70%;
@@ -179,7 +179,7 @@ section .two .block1 {
   background-color: white;
 }
 
-section .two .block1 .about {
+.two .block1 .about {
   display: inline-block;
   margin-left: 250px;
   margin-top: 80px;
@@ -188,7 +188,7 @@ section .two .block1 .about {
   font-size: 19.2px;
 }
 
-section .two .block1 .quality {
+.two .block1 .quality {
   margin-left: 250px;
   margin-top: 40px;
   font-size: xx-large;
@@ -197,8 +197,7 @@ section .two .block1 .quality {
   font-size: 45.5px;
 }
 
-section .two img {
-  display: none;
+.two img {
   position: relative;
   left: 590px;
   right: 40px;
@@ -210,7 +209,7 @@ section .two img {
   background-color: white;
 }
 
-section .two .block2 {
+.two .block2 {
   position: relative;
   bottom: 750px;
   left: 10px;
@@ -222,7 +221,7 @@ section .two .block2 {
   display: flex;
 }
 
-section .two .block2 p {
+.two .block2 p {
   position: relative;
   top: 100px;
   left: 250px;
@@ -235,7 +234,7 @@ section .two .block2 p {
   color: white;
 }
 
-section .two .block2 img {
+.two .block2 img {
   position: relative;
   top: 20px;
   left: 20px;
@@ -243,18 +242,18 @@ section .two .block2 img {
   height: 80%;
 }
 
-section .three {
+.three {
   margin-top: 20px;
 }
 
-section .three .beg {
+.three .beg {
   background-color: white;
   position: relative;
   width: 72%;
   height: 100vh;
 }
 
-section .three .beg .mission {
+.three .beg .mission {
   position: relative;
   top: 170px;
   left: 250px;
@@ -263,14 +262,14 @@ section .three .beg .mission {
   font-family: 'Roboto', sans-serif;
 }
 
-section .three .beg p {
+.three .beg p {
   position: relative;
   top: 220px;
   left: 250px;
   font-size: 45.5px;
 }
 
-section .three .beggar {
+.three .beggar {
   position: relative;
   left: 1070px;
   bottom: 722.5px;
@@ -279,7 +278,7 @@ section .three .beggar {
   height: 100vh;
 }
 
-section .three img {
+.three img {
   position: relative;
   bottom: 1300px;
   left: 911px;
@@ -287,79 +286,109 @@ section .three img {
   height: 60vh;
 }
 
-section .four {
+.four {
   background-color: white;
 }
 
-section .four .build {
+.four .build {
   position: relative;
   top: 20px;
   left: 250px;
-  background-color: pink;
+  background-color: white;
 }
 
-section .four .beggar2 {
+.four .build p {
+  font-size: 19.2px;
+  margin-top: 170px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Waiting for the Sunrise', cursive;
+}
+
+.four .build .explore {
+  margin-top: 80px;
+  font-size: 45.5px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Waiting for the Sunrise', cursive;
+}
+
+.four .beggar2 {
   position: relative;
   left: 1070px;
-  bottom: 0px;
+  bottom: 380px;
   height: 100vh;
   width: 20%;
-  position: relative;
-  background-color: blue;
+  background-color: #d19f3b;
+  z-index: 4;
 }
 
-section .four .biggie {
-  background-color: green;
+.four .biggie {
+  background-color: white;
   margin-left: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 40px;
+  margin-right: 20px;
   height: 40%;
-  width: 60%;
+  width: 70%;
   position: relative;
-  bottom: 400px;
+  bottom: 700px;
 }
 
-section .four .biggie .big1 {
-  margin-left: 70px;
+.four .biggie .big1 {
+  margin-left: 10px;
   width: 33.3%;
 }
 
-section .four .biggie .big1 img {
+.four .biggie .big1 img {
   width: 80%;
-  height: 50%;
+  height: 60%;
 }
 
-section .four .biggie .big1 p {
-  background-color: purple;
+.four .biggie .big1 p {
+  margin-top: 30px;
+  background-color: white;
+  font-style: bold;
+  font-size: large;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Waiting for the Sunrise', cursive;
 }
 
-section .four .biggie .big2 {
-  margin-left: 70px;
+.four .biggie .big2 {
+  margin-left: 10px;
   width: 33.3%;
 }
 
-section .four .biggie .big2 img {
+.four .biggie .big2 img {
   width: 80%;
-  height: 50%;
+  height: 60%;
 }
 
-section .four .biggie .big2 p {
-  background-color: red;
+.four .biggie .big2 p {
+  margin-top: 30px;
+  background-color: white;
+  font-style: bold;
+  font-size: large;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Waiting for the Sunrise', cursive;
 }
 
-section .four .biggie .big3 {
-  margin-left: 70px;
+.four .biggie .big3 {
+  margin-left: 10px;
   width: 33.3%;
+  z-index: 5;
 }
 
-section .four .biggie .big3 img {
+.four .biggie .big3 img {
   width: 80%;
-  height: 50%;
+  height: 60%;
 }
 
-section .four .biggie .big3 p {
-  background-color: orange;
+.four .biggie .big3 p {
+  margin-top: 30px;
+  background-color: transparent;
+  font-style: bold;
+  font-size: large;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Waiting for the Sunrise', cursive;
 }
 /*# sourceMappingURL=style.css.map */

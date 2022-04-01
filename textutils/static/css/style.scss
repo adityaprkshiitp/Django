@@ -9,7 +9,7 @@ body{
 }
 section{
     height: 100vh;
-    width: 100%;
+    width: 100%;}
 //this is section 1//
 .one{
 nav{
@@ -141,7 +141,7 @@ nav{
 }
 //this is section 2//
 .two{
-    background-color: white;
+background-color: white;
     .block1{
         position: relative;
         left: 10px;
@@ -166,7 +166,6 @@ nav{
         }
     }
     img{
-        display: none;
         position: relative;
         left: 590px;
         right: 40px;
@@ -254,59 +253,86 @@ nav{
         position: relative;
         top: 20px;
         left: 250px;
-        background-color: pink;
+        background-color: white;
+        p{
+            font-size: 19.2px;
+            margin-top: 170px;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Waiting for the Sunrise', cursive;
+        }
+        .explore{
+            margin-top: 80px;
+            font-size: 45.5px;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Waiting for the Sunrise', cursive;
+        }
     }
     .beggar2{
         position: relative;
         left: 1070px;
-        bottom: 0px;
+        bottom: 380px;
         height: 100vh;
         width: 20%;
-        position:relative;
-        background-color: blue;
+        background-color: #d19f3b;
+        z-index: 4;
+        
     }
     .biggie{
-        background-color: green;
+        background-color: white;
         margin-left: 250px;
         display: flex;
-        margin-right: 40px;
+        margin-right: 20px;
         height: 40%;
-        width: 60%;
+        width: 70%;
         position: relative;
-        bottom: 400px;
+        bottom: 700px;
         .big1{
-            margin-left: 70px;
+            margin-left: 10px;
             width: 33.3%;
             img{
                 width: 80%;
-                height: 50%;
+                height: 60%;
             }
             p{
-                background-color: purple;
+                margin-top: 30px;
+                background-color: white;
+                font-style: bold;
+                font-size: large;
+                font-family: 'Roboto', sans-serif;
+                font-family: 'Waiting for the Sunrise', cursive;
             }
         }
         .big2{
-            margin-left: 70px;
+            margin-left: 10px;
             width: 33.3%;
             img{
                 width: 80%;
-                height: 50%;
+                height: 60%;
             }
             p{
-                background-color: red;
+                margin-top: 30px;
+                background-color:white;
+                font-style: bold;
+                font-size: large;
+                font-family: 'Roboto', sans-serif;
+                font-family: 'Waiting for the Sunrise', cursive;
             }
         }
         .big3{
-            margin-left: 70px;
+            margin-left: 10px;
             width: 33.3%;
+            z-index: 5;
             img{
                 width: 80%;
-                height: 50%;
-            }
+                height: 60%;            }
             p{
-                background-color: orange;
+                margin-top: 30px;
+                background-color:transparent;
+                font-style: bold;
+                font-size: large;
+                font-family: 'Roboto', sans-serif;
+                font-family: 'Waiting for the Sunrise', cursive;
             }
         }
     }
-}
 }
