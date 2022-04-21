@@ -1,9 +1,10 @@
 body {
-  background-color: white;
+  background-color: #f3f3f3;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   font-family: 'Roboto', sans-serif;
+  overflow: hidden;
 }
 
 @font-face {
@@ -148,12 +149,14 @@ section {
   width: 100%;
   height: 83vh;
   margin-bottom: 3rem;
+  border-radius: 10px;
 }
 
 .one .abody .rightblock {
   width: 50%;
   text-align: center;
   background-color: white;
+  border-radius: 10px;
   margin-bottom: 3rem;
   margin-top: 1rem;
   margin-left: 3rem;
@@ -242,6 +245,7 @@ section {
 
 .three {
   margin-top: 20px;
+  background-color: white;
 }
 
 .three .beg {
@@ -683,5 +687,151 @@ section {
   margin-top: 150px;
   height: 50vh;
   font-size: 20px;
+}
+
+.eight .topblock {
+  font-family: Fontspring-DEMO-theseasons-reg;
+  position: relative;
+  bottom: 400px;
+  height: 30vh;
+  margin-left: 250px;
+}
+
+.eight .topblock p {
+  margin-top: 50px;
+  font-size: 19.2px;
+  width: 120px;
+}
+
+.eight .topblock .para {
+  font-size: 45.5px;
+  width: 350px;
+}
+
+.eight .bottomblock {
+  position: relative;
+  bottom: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70vh;
+  margin-left: 250px;
+  width: 100%;
+}
+
+.eight .bottomblock .first {
+  width: 20%;
+}
+
+.eight .bottomblock .second {
+  width: 30%;
+  margin-left: 20px;
+}
+
+.eight .bottomblock .third {
+  width: 35%;
+  margin-left: 30px;
+}
+
+.nine .topblock {
+  position: relative;
+  bottom: 300px;
+  height: 30vh;
+}
+
+.nine .topblock p {
+  margin-left: 250px;
+  width: 200px;
+  font-size: 19.2px;
+  margin-top: 50px;
+}
+
+.nine .topblock .para {
+  margin-left: 250px;
+  margin-top: 25px;
+  width: 400px;
+  font-size: 45.5px;
+}
+
+.nine .bottomblock {
+  position: relative;
+  bottom: 300px;
+  height: 40vh;
+}
+
+.nine .bottomblock .bigbox {
+  height: 30vh;
+  width: 74%;
+  margin-left: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nine .bottomblock .bigbox .box1 {
+  width: 20%;
+  background-color: darkcyan;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nine .bottomblock .bigbox .box1 img {
+  width: 60%;
+  height: 60%;
+  margin-left: 45px;
+  margin-top: 45px;
+}
+
+.nine .bottomblock .bigbox .box2 {
+  width: 20%;
+  background-color: darkcyan;
+  margin-left: 20px;
+}
+
+.nine .bottomblock .bigbox .box2 img {
+  width: 60%;
+  height: 60%;
+  margin-left: 45px;
+  margin-top: 45px;
+}
+
+.nine .bottomblock .bigbox .box3 {
+  width: 20%;
+  background-color: darkcyan;
+  margin-left: 20px;
+}
+
+.nine .bottomblock .bigbox .box3 img {
+  width: 60%;
+  height: 60%;
+  margin-left: 45px;
+  margin-top: 45px;
+}
+
+.nine .bottomblock .bigbox .box4 {
+  width: 20%;
+  background-color: darkcyan;
+  margin-left: 20px;
+}
+
+.nine .bottomblock .bigbox .box4 img {
+  width: 60%;
+  height: 60%;
+  margin-left: 45px;
+  margin-top: 45px;
+}
+
+.nine .bottomblock .bigbox .box5 {
+  width: 20%;
+  background-color: darkcyan;
+  margin-left: 20px;
+}
+
+.nine .bottomblock .bigbox .box5 img {
+  width: 60%;
+  height: 60%;
+  margin-left: 45px;
+  margin-top: 45px;
 }
 /*# sourceMappingURL=style.css.map */
