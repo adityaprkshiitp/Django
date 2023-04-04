@@ -1,0 +1,837 @@
+body {
+  background-color: #f3f3f3;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: Seasons;
+  src: url(../../Media/Fonts/Fontspring-DEMO-theseasons-reg.otf);
+  font-family: seasons light;
+  src: url(../../Media/Fonts/Fontspring-DEMO-theseasons-ltit.otf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+.one nav {
+  width: 100%;
+  height: 10vh;
+  background-color: #d19f3b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.one nav .logo {
+  width: 40%;
+  margin-left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.one nav .logo img {
+  width: 6rem;
+  height: 10vh;
+}
+
+.one nav .logo p {
+  width: 50%;
+  margin: 3px;
+  padding-top: 15px;
+  color: white;
+  font-size: 34.3px;
+  font-family: Fontspring-DEMO-theseasons-reg;
+}
+
+.one nav ul {
+  width: 60%;
+  height: 100%;
+  list-style: none;
+  margin: 0px;
+  padding: 0rem;
+  margin-left: 18rem;
+  margin-right: 2rem;
+  text-align: center;
+  font-size: 14.9px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Waiting for the Sunrise', cursive;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.one nav ul li {
+  width: 25%;
+  margin-top: 7px;
+  margin-right: 4px;
+  margin-bottom: 7px;
+  font-family: Fontspring-DEMO-theseasons-reg;
+}
+
+.one nav ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.one nav ul li {
+  width: 25%;
+  margin-top: 7px;
+  margin-right: 4px;
+  margin-bottom: 7px;
+  font-family: Fontspring-DEMO-theseasons-reg;
+}
+
+.one nav ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.one nav ul li {
+  width: 25%;
+  margin-top: 7px;
+  margin-right: 4px;
+  margin-bottom: 7px;
+  font-family: Fontspring-DEMO-theseasons-reg;
+}
+
+.one nav ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.one nav ul li {
+  width: 25%;
+  margin-top: 7px;
+  margin-right: 4px;
+  margin-bottom: 7px;
+  font-family: Fontspring-DEMO-theseasons-reg;
+}
+
+.one nav ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.one .abody {
+  height: 90vh;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.one .abody .leftblock {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.one .abody .leftblock img {
+  width: 100%;
+  height: 83vh;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+}
+
+.one .abody .rightblock {
+  width: 50%;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  border: #000;
+}
+
+.one .abody .rightblock p {
+  margin: 10rem;
+  background-color: white;
+  font-size: 45.2px;
+  font-family: Fontspring-DEMO-theseasons-reg;
+  text-align: left;
+}
+
+.two {
+  background-color: white;
+}
+
+.two .block1 {
+  position: relative;
+  left: 10px;
+  width: 70%;
+  height: 50%;
+  background-color: white;
+}
+
+.two .block1 .about {
+  display: inline-block;
+  margin-left: 250px;
+  margin-top: 80px;
+  font-family: Fontspring-DEMO-theseasons-reg;
+  font-size: 19.2px;
+}
+
+.two .block1 .quality {
+  margin-left: 250px;
+  margin-top: 40px;
+  font-size: xx-large;
+  font-family: Fontspring-DEMO-theseasons-reg;
+  font-size: 45.5px;
+}
+
+.two img {
+  position: relative;
+  left: 590px;
+  right: 40px;
+  bottom: 362px;
+  width: 20%;
+  height: 100%;
+  margin-left: 30rem;
+  margin-right: 5rem;
+  background-color: white;
+}
+
+.two .block2 {
+  position: relative;
+  bottom: 750px;
+  left: 10px;
+  width: 75%;
+  height: 40%;
+  background-color: #d19f3b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.two .block2 p {
+  position: relative;
+  top: 100px;
+  left: 250px;
+  width: 80%;
+  height: 80%;
+  font-size: 16.4px;
+  font-family: Fontspring-DEMO-theseasons-reg;
+  text-align: left;
+  color: white;
+}
+
+.two .block2 img {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: 40%;
+  height: 80%;
+}
+
+.three {
+  margin-top: 20px;
+  background-color: white;
+}
+
+.three .beg {
+  background-color: white;
+  position: relative;
+  width: 72%;
+  height: 100vh;
+}
+
+.three .beg .mission {
+  position: relative;
+  top: 170px;
+  left: 250px;
+  font-size: 25px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.three .beg p {
+  position: relative;
+  top: 220px;
+  left: 250px;
+  font-size: 45.5px;
+}
+
+.three .beggar {
+  position: relative;
+  left: 1070px;
+  bottom: 722.5px;
+  background-color: #d19f3b;
+  width: 20%;
+  height: 100vh;
+}
+
+.three img {
+  position: relative;
+  bottom: 1300px;
+  left: 911px;
+  width: 40%;
+  height: 60vh;
+}
+
+.four {
+  background-color: white;
+}
+
+.four .build {
+  position: relative;
+  top: 20px;
+  left: 250px;
+  background-color: white;
+}
+
+.four .build p {
+  font-size: 19.2px;
+  margin-top: 170px;
+  font-family: Fontspring-DEMO-theseasons-reg;
+}
+
+.four .build .explore {
+  margin-top: 80px;
+  font-size: 45.5px;
+  font-family: Fontspring-DEMO-theseasons-reg;
+}
+
+.four .beggar2 {
+  position: relative;
+  left: 1070px;
+  bottom: 350px;
+  height: 100vh;
+  width: 20%;
+  background-color: #d19f3b;
+  z-index: 4;
+}
+
+.four .biggie {
+  background-color: white;
+  margin-left: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  height: 40%;
+  width: 70%;
+  position: relative;
+  bottom: 700px;
+}
+
+.four .biggie .big1 {
+  margin-left: 10px;
+  width: 33.3%;
+}
+
+.four .biggie .big1 img {
+  width: 80%;
+  height: 60%;
+}
+
+.four .biggie .big1 p {
+  margin-top: 30px;
+  background-color: white;
+  font-style: bold;
+  font-size: large;
+  font-family: Fontspring-DEMO-theseasons-reg;
+}
+
+.four .biggie .big2 {
+  margin-left: 10px;
+  width: 33.3%;
+}
+
+.four .biggie .big2 img {
+  width: 80%;
+  height: 60%;
+}
+
+.four .biggie .big2 p {
+  margin-top: 30px;
+  background-color: white;
+  font-style: bold;
+  font-size: large;
+  font-family: Fontspring-DEMO-theseasons-reg;
+}
+
+.four .biggie .big3 {
+  margin-left: 10px;
+  width: 33.3%;
+  z-index: 5;
+}
+
+.four .biggie .big3 img {
+  width: 80%;
+  height: 60%;
+}
+
+.four .biggie .big3 p {
+  margin-top: 30px;
+  background-color: transparent;
+  font-style: bold;
+  font-size: large;
+  font-family: Fontspring-DEMO-theseasons-reg;
+}
+
+.five {
+  position: relative;
+  bottom: 110px;
+}
+
+.five .smallie {
+  height: 45vh;
+  font-family: Fontspring-DEMO-theseasons-reg;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.five .smallie .hi1 {
+  width: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.five .smallie .hi2 {
+  margin-top: 100px;
+  width: 20%;
+}
+
+.five .smallie .hi2 p {
+  font-size: 47.2px;
+  color: #ba8425;
+}
+
+.five .smallie .hi2 .hi22 {
+  margin-top: 50px;
+  font-size: 17.1px;
+  color: black;
+}
+
+.five .smallie .hi3 {
+  margin-top: 100px;
+  width: 20%;
+}
+
+.five .smallie .hi3 p {
+  font-size: 47.2px;
+  color: #ba8425;
+}
+
+.five .smallie .hi3 .hi33 {
+  margin-top: 50px;
+  font-size: 17.1px;
+  color: black;
+}
+
+.five .smallie .hi4 {
+  margin-top: 100px;
+  width: 20%;
+}
+
+.five .smallie .hi4 p {
+  font-size: 47.2px;
+  color: #ba8425;
+}
+
+.five .smallie .hi4 .hi44 {
+  margin-top: 50px;
+  font-size: 17.1px;
+  color: black;
+}
+
+.five .smallie .hi5 {
+  margin-top: 100px;
+  width: 20%;
+}
+
+.five .smallie .hi5 p {
+  font-size: 47.2px;
+  color: #ba8425;
+}
+
+.five .smallie .hi5 .hi55 {
+  margin-top: 50px;
+  font-size: 17.1px;
+  color: black;
+}
+
+.five .smallie .hi6 {
+  width: 10%;
+}
+
+.five img {
+  height: 55vh;
+  width: 100%;
+}
+
+.six {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Fontspring-DEMO-theseasons-reg;
+}
+
+.six .leftblock {
+  height: 100vh;
+  width: 40%;
+  margin-right: 20px;
+}
+
+.six .leftblock p {
+  margin-top: 50px;
+  margin-left: 250px;
+  font-size: 19.2px;
+}
+
+.six .leftblock .para {
+  margin-top: 50px;
+  font-size: 45.5px;
+}
+
+.six .rightblock {
+  height: 100vh;
+  width: 60%;
+}
+
+.six .rightblock .topblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  width: 75%;
+}
+
+.six .rightblock .topblock .first {
+  width: 33.3%;
+}
+
+.six .rightblock .topblock .first img {
+  width: 70%;
+  height: 10vh;
+}
+
+.six .rightblock .topblock .first p {
+  font-size: 16.4px;
+  margin-top: 10px;
+  font-style: bold;
+}
+
+.six .rightblock .topblock .second {
+  width: 33.3%;
+}
+
+.six .rightblock .topblock .second img {
+  width: 70%;
+  height: 10vh;
+}
+
+.six .rightblock .topblock .second p {
+  font-size: 16.4px;
+  margin-top: 10px;
+  font-style: bold;
+}
+
+.six .rightblock .topblock .third {
+  width: 33.3%;
+}
+
+.six .rightblock .topblock .third img {
+  width: 70%;
+  height: 10vh;
+}
+
+.six .rightblock .topblock .third p {
+  font-size: 16.4px;
+  margin-top: 10px;
+  font-style: bold;
+}
+
+.six .rightblock .bottomblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  width: 75%;
+}
+
+.six .rightblock .bottomblock .fourth {
+  width: 33.3%;
+}
+
+.six .rightblock .bottomblock .fourth img {
+  width: 70%;
+  height: 10vh;
+}
+
+.six .rightblock .bottomblock .fourth p {
+  font-size: 16.4px;
+  margin-top: 10px;
+  font-style: bold;
+}
+
+.six .rightblock .bottomblock .fifth {
+  width: 33.3%;
+}
+
+.six .rightblock .bottomblock .fifth img {
+  width: 70%;
+  height: 10vh;
+}
+
+.six .rightblock .bottomblock .fifth p {
+  font-size: 16.4px;
+  margin-top: 10px;
+  font-style: bold;
+}
+
+.six .rightblock .bottomblock .sixth {
+  width: 33.3%;
+}
+
+.six .rightblock .bottomblock .sixth img {
+  width: 70%;
+  height: 10vh;
+}
+
+.six .rightblock .bottomblock .sixth p {
+  font-size: 16.4px;
+  margin-top: 10px;
+  font-style: bold;
+}
+
+.seven {
+  position: relative;
+  bottom: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  font-family: Fontspring-DEMO-theseasons-ltit;
+}
+
+.seven .leftblock {
+  width: 40%;
+}
+
+.seven .leftblock p {
+  font-size: 19.2px;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+
+.seven .leftblock .para {
+  font-style: bold;
+  font-size: 45.5px;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.seven .midblock {
+  width: 30%;
+}
+
+.seven .midblock img {
+  margin-left: 50px;
+  width: 100%;
+  height: 50vh;
+  margin-top: 100px;
+  z-index: 1;
+}
+
+.seven .midblock .button {
+  background-color: #d19f3b;
+  height: 5vh;
+  position: relative;
+  z-index: 2;
+  bottom: 20px;
+  left: 210px;
+  width: 160px;
+}
+
+.seven .midblock .button p {
+  font-size: 19.2px;
+  text-align: center;
+  color: white;
+  z-index: 3;
+  position: relative;
+  top: 5px;
+}
+
+.seven .rightblock {
+  width: 30%;
+}
+
+.seven .rightblock p {
+  width: 50%;
+  margin-left: 120px;
+  margin-top: 150px;
+  height: 50vh;
+  font-size: 20px;
+}
+
+.eight .topblock {
+  font-family: Fontspring-DEMO-theseasons-reg;
+  position: relative;
+  bottom: 400px;
+  height: 30vh;
+  margin-left: 250px;
+}
+
+.eight .topblock p {
+  margin-top: 50px;
+  font-size: 19.2px;
+  width: 120px;
+}
+
+.eight .topblock .para {
+  font-size: 45.5px;
+  width: 350px;
+}
+
+.eight .bottomblock {
+  position: relative;
+  bottom: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70vh;
+  margin-left: 250px;
+  width: 100%;
+}
+
+.eight .bottomblock .first {
+  width: 20%;
+}
+
+.eight .bottomblock .second {
+  width: 30%;
+  margin-left: 20px;
+}
+
+.eight .bottomblock .third {
+  width: 35%;
+  margin-left: 30px;
+}
+
+.nine .topblock {
+  position: relative;
+  bottom: 300px;
+  height: 30vh;
+}
+
+.nine .topblock p {
+  margin-left: 250px;
+  width: 200px;
+  font-size: 19.2px;
+  margin-top: 50px;
+}
+
+.nine .topblock .para {
+  margin-left: 250px;
+  margin-top: 25px;
+  width: 400px;
+  font-size: 45.5px;
+}
+
+.nine .bottomblock {
+  position: relative;
+  bottom: 300px;
+  height: 40vh;
+}
+
+.nine .bottomblock .bigbox {
+  height: 30vh;
+  width: 74%;
+  margin-left: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nine .bottomblock .bigbox .box1 {
+  width: 20%;
+  background-color: darkcyan;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nine .bottomblock .bigbox .box1 img {
+  width: 60%;
+  height: 60%;
+  margin-left: 45px;
+  margin-top: 45px;
+}
+
+.nine .bottomblock .bigbox .box2 {
+  width: 20%;
+  background-color: darkcyan;
+  margin-left: 20px;
+}
+
+.nine .bottomblock .bigbox .box2 img {
+  width: 60%;
+  height: 60%;
+  margin-left: 45px;
+  margin-top: 45px;
+}
+
+.nine .bottomblock .bigbox .box3 {
+  width: 20%;
+  background-color: darkcyan;
+  margin-left: 20px;
+}
+
+.nine .bottomblock .bigbox .box3 img {
+  width: 60%;
+  height: 60%;
+  margin-left: 45px;
+  margin-top: 45px;
+}
+
+.nine .bottomblock .bigbox .box4 {
+  width: 20%;
+  background-color: darkcyan;
+  margin-left: 20px;
+}
+
+.nine .bottomblock .bigbox .box4 img {
+  width: 60%;
+  height: 60%;
+  margin-left: 45px;
+  margin-top: 45px;
+}
+
+.nine .bottomblock .bigbox .box5 {
+  width: 20%;
+  background-color: darkcyan;
+  margin-left: 20px;
+}
+
+.nine .bottomblock .bigbox .box5 img {
+  width: 60%;
+  height: 60%;
+  margin-left: 45px;
+  margin-top: 45px;
+}
+/*# sourceMappingURL=style.css.map */

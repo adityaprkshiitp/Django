@@ -1,0 +1,697 @@
+body{
+    background-color:#f3f3f3;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+@font-face {
+    font-family: Seasons;
+    src: url(../../Media/Fonts/Fontspring-DEMO-theseasons-reg.otf);
+    font-family: seasons light;
+    src: url(../../Media/Fonts/Fontspring-DEMO-theseasons-ltit.otf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    height: 100vh;
+    width: 100%;}
+//this is section 1//
+.one{
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #d19f3b;
+    display: flex;
+    .logo{
+        width: 40%;
+        margin-left: 2rem;
+        display: flex;
+        img{
+            width: 6rem;
+            height: 10vh;  
+        }
+        p{ 
+            width: 50%; 
+            margin: 3px;
+            padding-top: 15px;
+            color: white;
+            font-size: 34.3px;
+            font-family: Fontspring-DEMO-theseasons-reg;
+        }
+    }
+    ul{
+        width: 60%;
+        height: 100%;
+        list-style: none;
+        margin: 0px;
+        padding: 0rem;
+        margin-left: 18rem;
+        margin-right: 2rem;
+        text-align: center;
+        font-size: 14.9px;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Waiting for the Sunrise', cursive;
+        align-items: center;
+        display: flex;
+        li{
+            width: 25%;
+            margin-top: 7px;
+            margin-right: 4px;
+            margin-bottom: 7px;
+            font-family: Fontspring-DEMO-theseasons-reg;
+            a{
+                text-decoration: none;
+                cursor: pointer;
+                color:white;
+            }
+        }
+        li{
+            width: 25%;
+            margin-top: 7px;
+            margin-right: 4px;
+            margin-bottom: 7px;
+            font-family: Fontspring-DEMO-theseasons-reg;
+            a{
+                text-decoration: none;
+                cursor: pointer;
+                color:white;
+            }
+        }
+        li{
+            width: 25%;
+            margin-top: 7px;
+            margin-right: 4px;
+            margin-bottom: 7px;
+            font-family: Fontspring-DEMO-theseasons-reg;
+            a{
+                text-decoration: none;
+                cursor: pointer;
+                color:white;
+            }
+        }
+        li{
+            width: 25%;
+            margin-top: 7px;
+            margin-right: 4px;
+            margin-bottom: 7px;
+            font-family: Fontspring-DEMO-theseasons-reg;
+            a{
+                text-decoration: none;
+                cursor: pointer;
+                color:white;
+            }
+        }
+
+    }
+}
+
+
+.abody{
+    height: 90vh;
+    margin: 20px;
+    display: flex;
+    .leftblock{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 3rem;
+        img{
+            width: 100%;
+            height: 83vh;
+            margin-bottom: 3rem;
+            border-radius: 10px;
+        }
+    }
+    .rightblock{
+        width: 50%;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+        border: #000;
+        p{
+            margin: 10rem;
+            background-color: rgb(255, 255, 255);
+            font-size: 45.2px;
+            font-family: Fontspring-DEMO-theseasons-reg;
+            text-align: left;
+        }
+    }
+}
+}
+//this is section 2//
+.two{
+background-color: white;
+    .block1{
+        position: relative;
+        left: 10px;
+        width: 70%;
+        height: 50%;
+        background-color: white;
+        .about{
+            display: inline-block;
+            margin-left: 250px;
+            margin-top: 80px;
+            font-family: Fontspring-DEMO-theseasons-reg;
+            font-size: 19.2px;
+        }
+        .quality{
+            margin-left: 250px;
+            margin-top: 40px;
+            font-size: xx-large;
+            font-family: Fontspring-DEMO-theseasons-reg;
+            font-size: 45.5px;
+        }
+    }
+    img{
+        position: relative;
+        left: 590px;
+        right: 40px;
+        bottom: 362px;
+        width: 20%;
+        height: 100%;
+        margin-left: 30rem;
+        margin-right: 5rem;
+        background-color: white;
+    }
+    .block2{
+        position: relative;
+        bottom: 750px;
+        left: 10px;
+        width: 75%;
+        height: 40%;
+        background-color: #d19f3b;
+        display: flex;
+        p{
+            position: relative;
+            top: 100px;
+            left: 250px;
+            width: 80%;
+            height: 80%;
+            font-size: 16.4px;
+            font-family: Fontspring-DEMO-theseasons-reg;
+            text-align: left;
+            color: white;
+        }
+        img{
+            position: relative;
+            top: 20px;
+            left: 20px;
+            width: 40%;
+            height: 80%;
+        }
+    }
+}
+//this is section 3//
+.three{
+    margin-top: 20px;
+    background-color: white;
+    .beg{
+        background-color: white;
+        position: relative;
+        width: 72%;
+        height: 100vh;
+        .mission{
+            position: relative;
+            top: 170px;
+            left: 250px;
+            font-size: 25px;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+        p{
+            position: relative;
+            top: 220px;
+            left: 250px;
+            font-size: 45.5px;
+
+        }
+
+    }
+    .beggar{
+        position: relative;
+        left: 1070px;
+        bottom: 722.5px;
+        background-color: #d19f3b;
+        width: 20%;
+        height: 100vh;
+    }
+    img{
+        position: relative;
+        bottom: 1300px;
+        left: 911px;
+        width: 40%;
+        height: 60vh;
+    }
+}
+//this is section 4//
+.four{
+    background-color: white;
+    .build{
+        position: relative;
+        top: 20px;
+        left: 250px;
+        background-color: white;
+        p{
+            font-size: 19.2px;
+            margin-top: 170px;
+            font-family: Fontspring-DEMO-theseasons-reg;
+        }
+        .explore{
+            margin-top: 80px;
+            font-size: 45.5px;
+            font-family: Fontspring-DEMO-theseasons-reg;
+        }
+    }
+    .beggar2{
+        position: relative;
+        left: 1070px;
+        bottom: 350px;
+        height: 100vh;
+        width: 20%;
+        background-color: #d19f3b;
+        z-index: 4;
+        
+    }
+    .biggie{
+        background-color: white;
+        margin-left: 250px;
+        display: flex;
+        margin-right: 20px;
+        height: 40%;
+        width: 70%;
+        position: relative;
+        bottom: 700px;
+        .big1{
+            margin-left: 10px;
+            width: 33.3%;
+            img{
+                width: 80%;
+                height: 60%;
+            }
+            p{
+                margin-top: 30px;
+                background-color: white;
+                font-style: bold;
+                font-size: large;
+                font-family: Fontspring-DEMO-theseasons-reg;
+            }
+        }
+        .big2{
+            margin-left: 10px;
+            width: 33.3%;
+            img{
+                width: 80%;
+                height: 60%;
+            }
+            p{
+                margin-top: 30px;
+                background-color:white;
+                font-style: bold;
+                font-size: large;
+                font-family: Fontspring-DEMO-theseasons-reg;
+            }
+        }
+        .big3{
+            margin-left: 10px;
+            width: 33.3%;
+            z-index: 5;
+            img{
+                width: 80%;
+                height: 60%;            }
+            p{
+                margin-top: 30px;
+                background-color:transparent;
+                font-style: bold;
+                font-size: large;
+                font-family: Fontspring-DEMO-theseasons-reg;
+            }
+        }
+    }
+}
+//this is section 5//
+.five{
+    position: relative;
+    bottom: 110px;
+    .smallie{
+        height: 45vh;
+        font-family: Fontspring-DEMO-theseasons-reg;
+        text-align: center;
+        display: flex;
+        .hi1{
+            width: 10%;
+            align-items: center;
+        }
+        .hi2{
+            margin-top: 100px;
+            width: 20%;
+            p{
+                font-size: 47.2px;
+                color: #ba8425;
+            }
+            .hi22{
+                margin-top: 50px;
+                font-size: 17.1px;
+                color: black;
+            }
+        }
+        .hi3{
+            margin-top: 100px;
+            width: 20%;
+            p{
+                font-size: 47.2px;
+                color: #ba8425;
+            }
+            .hi33{
+                margin-top: 50px;
+                font-size: 17.1px;
+                color: black;
+            }
+        }
+        .hi4{
+            margin-top: 100px;
+            width: 20%;
+            p{
+                font-size: 47.2px;
+                color: #ba8425;
+            }
+            .hi44{
+                margin-top: 50px;
+                font-size: 17.1px;
+                color: black;
+            }
+        }
+        .hi5{
+            margin-top: 100px;
+            width: 20%;
+            p{
+                font-size: 47.2px;
+                color: #ba8425;
+            }
+            .hi55{
+                margin-top: 50px;
+                font-size: 17.1px;
+                color: black;
+            }
+        }
+        .hi6{
+            width: 10%;
+        }
+    }
+    img{
+        height: 55vh;
+        width: 100%;
+    }
+}
+//this is section 6//
+.six{
+    margin-top: 20px;
+    display: flex;
+    font-family: Fontspring-DEMO-theseasons-reg;
+    .leftblock{
+        height: 100vh;
+        width: 40%;
+        margin-right: 20px;        
+        p{
+            margin-top: 50px;
+            margin-left: 250px;
+            font-size: 19.2px;
+        }
+        .para{
+            margin-top: 50px;
+            font-size: 45.5px;
+        }
+    }
+    .rightblock{
+        height: 100vh;
+        width: 60%;
+        .topblock{
+            display: flex;
+            margin-top: 50px;
+            width: 75%;
+            .first{
+                width: 33.3%;
+                img{
+                    width: 70%;
+                    height: 10vh;
+                }
+                p{
+                    font-size: 16.4px;
+                    margin-top: 10px;
+                    font-style: bold;
+                }
+            }
+            .second{
+                width: 33.3%;
+                img{
+                    width: 70%;
+                    height: 10vh;
+                }
+                p{
+                    font-size: 16.4px;
+                    margin-top: 10px;
+                    font-style: bold;
+                }
+            }
+            .third{
+                width: 33.3%;
+                img{
+                    width: 70%;
+                    height: 10vh;
+                }
+                p{
+                    font-size: 16.4px;
+                    margin-top: 10px;
+                    font-style: bold;
+                }
+            }
+        }
+        .bottomblock{
+            display: flex;
+            margin-top: 50px;
+            width: 75%;
+            .fourth{
+                width: 33.3%;
+                img{
+                    width: 70%;
+                    height: 10vh;
+                }
+                p{
+                    font-size: 16.4px;
+                    margin-top: 10px;
+                    font-style: bold;
+                }
+            }
+            .fifth{
+                width: 33.3%;
+                img{
+                    width: 70%;
+                    height: 10vh;
+                }
+                p{
+                    font-size: 16.4px;
+                    margin-top: 10px;
+                    font-style: bold;
+                }
+            }
+            .sixth{
+                width: 33.3%;
+                img{
+                    width: 70%;
+                    height: 10vh;
+                }
+                p{
+                    font-size: 16.4px;
+                    margin-top: 10px;
+                    font-style: bold;
+                }
+            }
+        }
+    }
+}
+//this is section 7//
+.seven{
+    position: relative;
+    bottom: 250px;
+    display: flex;
+    width: 100%;
+    font-family: Fontspring-DEMO-theseasons-ltit;
+    .leftblock{
+        width: 40%;
+        p{
+            font-size: 19.2px;
+            margin-left: 250px;
+            margin-top: 100px;
+        }
+        .para{
+            font-style: bold;
+            font-size: 45.5px;
+            margin-left: 250px;
+            margin-top: 50px;
+        }
+    }
+    .midblock{
+        width: 30%;
+        img{
+            margin-left: 50px;
+            width: 100%;
+            height: 50vh;
+            margin-top: 100px;
+            z-index: 1;
+        }
+        .button{
+            background-color: #d19f3b;
+            height: 5vh;
+            position: relative;
+            z-index: 2;
+            bottom: 20px;
+            left: 210px;
+            width: 160px;
+            p{
+            font-size: 19.2px;
+            text-align: center;
+            color: white;
+            z-index: 3;
+            position: relative;
+            top: 5px;
+            }
+        }
+    }
+    .rightblock{
+        width: 30%;
+        p{
+            width: 50%;
+            margin-left: 120px;
+            margin-top: 150px;
+            height: 50vh;
+            font-size: 20px;
+        }
+    }
+}
+//this is section 8//
+.eight{
+    .topblock{
+        font-family: Fontspring-DEMO-theseasons-reg;
+        position: relative;
+        bottom: 400px;
+        height: 30vh;
+        margin-left: 250px;
+        p{
+            margin-top: 50px;
+            font-size: 19.2px;
+            width: 120px;
+        }
+        .para{
+            font-size: 45.5px;
+            width: 350px;
+        }
+    }
+    .bottomblock{
+        position: relative;
+        bottom: 400px;
+        display: flex;
+        height: 70vh;
+        margin-left: 250px ;
+        width: 100%;
+        .first{
+            width: 20%;
+        }
+        .second{
+            width: 30%;
+            margin-left: 20px;
+        }
+        .third{
+            width: 35%;
+            margin-left: 30px;
+        }
+    }
+}
+//this is section 9//
+.nine{
+    .topblock{
+        position: relative;
+        bottom: 300px;
+        height: 30vh;
+        p{
+            margin-left: 250px;
+            width: 200px;
+            font-size: 19.2px;
+            margin-top: 50px;
+        }
+        .para{
+            margin-left: 250px;
+            margin-top: 25px;
+            width: 400px;
+            font-size: 45.5px;
+        }
+    }
+    .bottomblock{
+        position: relative;
+        bottom: 300px;
+        height: 40vh;
+        .bigbox{
+            height: 30vh;
+            width: 74%;
+            margin-left: 250px;
+            display: flex;
+            .box1{
+                width: 20%;
+                background-color: darkcyan;
+                align-items:center;
+                img{
+                    width: 60%;
+                    height: 60%;
+                    margin-left: 45px;
+                    margin-top: 45px;
+                }
+            }
+            .box2{
+                width: 20%;
+                background-color: darkcyan;
+                margin-left: 20px;
+                img{
+                    width: 60%;
+                    height: 60%;
+                    margin-left: 45px;
+                    margin-top: 45px;                
+                }
+            }
+            .box3{
+                width: 20%;
+                background-color: darkcyan;
+                margin-left: 20px;
+                img{
+                    width: 60%;
+                    height: 60%;
+                    margin-left: 45px;
+                    margin-top: 45px;               
+                }
+            }
+            .box4{
+                width: 20%;
+                background-color: darkcyan;
+                margin-left: 20px;
+                img{
+                    width: 60%;
+                    height: 60%;
+                    margin-left: 45px;
+                    margin-top: 45px;                
+                }
+            }
+            .box5{
+                width: 20%;
+                background-color: darkcyan;
+                margin-left: 20px;
+                img{
+                    width: 60%;
+                    height: 60%;
+                    margin-left: 45px;
+                    margin-top: 45px;
+                }
+            }
+        }
+    }
+}
